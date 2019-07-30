@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text1"
+        />
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:contentDescription="@string/image"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" />
+    <!--android:layout_toStartOf="@+id/icon"android:layout_toRightOf="@+id/icon"-->
+<!--    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title"
+
+        android:paddingBottom="10dp"
+        android:textColor="#CC0033"
+        android:textSize="16dp" />-->
+
+<!--    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/selected_Item"
+        />-->
+
+
+<!--    <TextView
+        android:id="@+id/desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:textColor="#3399FF"
+        android:textSize="14dp"
+        android:layout_below="@+id/title"
+        android:layout_toEndOf="@+id/icon" />-->
+</RelativeLayout>

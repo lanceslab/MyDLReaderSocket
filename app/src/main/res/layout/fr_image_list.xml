@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+    android:layout_gravity="center_horizontal"
+    android:layout_centerHorizontal="true"
+    android:layout_alignParentRight="true"
+    -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=""
+
+        android:layout_marginBottom="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_above="@+id/etIPAddress"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/empty_textview"  />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_send"
+        android:layout_alignParentLeft="true"
+        android:text="Send to Server"
+        android:layout_marginLeft="20dp"
+
+        android:layout_marginTop="5dp"
+
+        />
+
+    <EditText
+        android:id="@+id/etIPAddress"
+        android:layout_width="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="20dp"
+        android:windowSoftInputMode="stateAlwaysHidden"
+        android:ems="9"
+        android:text="192.168.1.106"
+        android:hint="IP Address" />
+
+    <TextView
+        android:id="@+id/text_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="true"
+        android:text="@string/file_count"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_below="@+id/button_send"
+        android:layout_toLeftOf="@id/status_message"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_send"
+        android:layout_marginLeft="20dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="== Results =="
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="9dp"
+
+        android:layout_above="@+id/list"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/status_message"  />
+    <!--android:paddingBottom="2dp"
+    android:layout_above="@+id/list"
+    -->
+
+<!--
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_above="@+id/list"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/button_send"
+        android:layout_marginTop="60dp"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+<!--    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/progress_bar"
+        android:layout_marginTop="20dp"
+        xmlns:android="http://schemas.android.com/apk/res/android">-->
+
+
+<!--        <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                />
+        </ListView>-->
+
+
+<!--        <Button
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_above="@+id/list"
+            android:layout_marginBottom="5dp"
+            />-->
+
+        <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+
+<!--    <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />-->
+
+</RelativeLayout>
+
+
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@android:id/list"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent" >
+	<Button
+		android:layout_width="30dp"
+		android:layout_height="40dp"
+		android:layout_gravity="center_horizontal"
+		/>
+</ListView>
+
+
+
+	</LinearLayout>-->
+
+

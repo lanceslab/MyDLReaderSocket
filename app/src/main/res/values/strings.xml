@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyDLReaderSocket</string>
+    <string name="ac_name_image_list">Image List Example</string>
+    <string name="ac_name_image_grid">Image Grid Example</string>
+    <string name="ac_name_image_pager">Image Pager Example</string>
+    <string name="ac_name_image_gallery">Image Gallery Example</string>
+    <string name="ac_name_complex">Complex Example</string>
+    <!-- Labels -->
+    <string name="label_examples">Examples</string>
+    <string name="button_image_list">ListView</string>
+    <string name="button_image_grid">GridView</string>
+    <string name="button_image_pager">ViewPager</string>
+    <string name="button_image_gallery">Gallery</string>
+    <string name="button_list_and_grid">ViewPager (ListView + GridView)</string>
+
+    <string name="title_list">List</string>
+    <string name="title_grid">Grid</string>
+
+    <string name="menu_item_clear_memory_cache">Clear memory cache</string>
+    <string name="menu_item_clear_disc_cache">Clear disc cache</string>
+    <string name="menu_item_pause_on_scroll">Pause on scroll</string>
+    <string name="menu_item_pause_on_fling">Pause on fling</string>
+
+    <!-- Content descriptions -->
+    <string name="descr_image">Image</string>
+
+
+
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low device storage</string>
+    <string name="title_activity_main">License-VIN Reader by LancesLab</string>
+    <string name="barcode_header">Click &quot;Read License&quot; to read a DL</string>
+    <string name="read_barcode">Read License</string>
+    <string name="auto_focus">Auto Focus</string>
+    <string name="main_header">Select License or VIN to scan</string>
+    <string name="use_flash">Use Flash</string>
+    <string name="lances_add">Powered by LancesLab</string>
+    <string name="barcode_success">DL read successfully</string>
+    <string name="barcode_missing_data">Scanned with Missing data</string>
+    <string name="barcode_failure">No License captured</string>
+    <string name="barcode_error">"Error reading License: %1$s"</string>
+    <string name="scan_license">Scan License</string>
+    <string name="scan_vin">Scan VIN</string>
+    <string name="scan">Scan</string>
+    <string name="camera_name">Camera</string>
+    <string name="gallery_name">Gallery</string>
+    <string name="get_images">Get Images</string>
+    <string name="snap">Snap</string>
+    <string name="picture">Picture</string>
+    <string name="name">ListViewBaseAdapter</string>
+    <string name="image">Thumbnail</string>
+    <string name="intro_message">Picture Taking Lances Lab</string>
+    <string name="description_info">Info</string>
+    <string name="request_permission">This sample needs camera permission.</string>
+    <string name="camera_error">This device does not support Camera2 API.</string>
+    <string name="take_picture">Take picture</string>
+    <string name="hello">Hello World, CamTestActivity!</string>
+    <!-- UI Elements -->
+    <string name="btn_capture">Click</string>
+
+    <!-- Toast Messages -->
+    <string name="camera_not_found">No camera harware found</string>
+    <string name="take_photo_help">Touch anywhere on screen to take picture</string>
+    <string name="sample_content_discription">Sample content discription</string>
+    <string name="auto_pics">Auto Pics</string>
+    <string name="process">Process</string>
+    <string name="dismissable_container">Dismissable Container</string>
+    <string name="dismissable_views">Dismissable_views</string>
+    <string name="get_pictures">Get Pictures</string>
+    <string name="file_count">Count</string>
+</resources>

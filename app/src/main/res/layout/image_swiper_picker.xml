@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:baselineAligned="false"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginRight="8dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            style="?android:listSeparatorTextViewStyle"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="@string/dismissable_views" />
+
+        <!--        <LinearLayout android:id="@+id/dismissable_container"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />-->
+
+        <ScrollView
+            android:layout_width="250dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:id="@+id/dismissable_container"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="8dp"
+        android:orientation="vertical">
+
+        <TextView android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            style="?android:listSeparatorTextViewStyle"
+            android:text="Image Path" />
+
+        <ListView
+            android:id="@android:id/list"
+            android:layout_weight="1"
+            android:layout_gravity="right"
+            android:layout_width="100dp"
+            android:layout_height="0dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
